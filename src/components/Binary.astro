@@ -15,7 +15,7 @@ const { value, networkBits, subnetBits } = Astro.props;
             <span
                 class={twMerge(
                     i >= networkBits &&
-                        `font-bold ${i - networkBits < subnetBits ? 'text-red-600' : 'text-blue-600'}`,
+                        `font-bold ${twMerge(i - networkBits < subnetBits ? 'text-red-600' : 'text-blue-600')}`,
                 )}
             >
                 {v}

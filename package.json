@@ -10,25 +10,25 @@
         "format": "prettier --write ."
     },
     "dependencies": {
-        "@astrojs/cloudflare": "^13.1.8",
-        "@astrojs/svelte": "^8.0.4",
+        "@astrojs/cloudflare": "^13.6.0",
+        "@astrojs/svelte": "^8.1.2",
         "@astrojs/vue": "^6.0.1",
-        "@tailwindcss/vite": "^4.2.2",
-        "@vueuse/components": "^14.2.1",
-        "astro": "^6.1.5",
-        "svelte": "^5.55.2",
-        "tailwind-merge": "^3.5.0",
-        "tailwindcss": "^4.2.2",
-        "typescript": "^6.0.2",
-        "vue": "^3.5.32"
+        "@tailwindcss/vite": "^4.3.0",
+        "@vueuse/components": "^14.3.0",
+        "astro": "^6.4.2",
+        "svelte": "^5.56.0",
+        "tailwind-merge": "^3.6.0",
+        "tailwindcss": "^4.3.0",
+        "typescript": "^6.0.3",
+        "vue": "^3.5.35"
     },
     "devDependencies": {
-        "prettier": "^3.8.1",
+        "prettier": "^3.8.3",
         "prettier-plugin-astro": "^0.14.1",
         "prettier-plugin-organize-imports": "^4.3.0",
-        "prettier-plugin-svelte": "^3.5.1",
-        "prettier-plugin-tailwindcss": "^0.7.2",
-        "vue-tsc": "^3.2.6",
-        "wrangler": "^4.81.0"
+        "prettier-plugin-svelte": "^4.0.1",
+        "prettier-plugin-tailwindcss": "^0.8.0",
+        "vue-tsc": "^3.3.3",
+        "wrangler": "^4.95.0"
     }
 }
